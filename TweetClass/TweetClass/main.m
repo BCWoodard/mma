@@ -16,6 +16,7 @@ int main(int argc, const char * argv[])
         
         // insert code here...
         Tweet *newTweet = [[Tweet alloc] init];
+        newTweet.tweetText = @"This is a new Tweet";
         [newTweet postTweet];
         
     }

@@ -12,11 +12,12 @@
 
 // Attributes
 @property NSString *username;
-@property NSString *tweetText;
 @property NSDate *tweetDate;
+@property NSString *tweetText;
 
 
 // Behaviors
 - (void)postTweet;
+- (NSString *)createTweet:(NSString *)input;
 
 @end

@@ -11,9 +11,18 @@
 @implementation Tweet
 @synthesize username, tweetDate, tweetText; // Not required in Xcode 4.4 or greater
 
+
+- (NSString *)createTweet:(NSString *)input {
+    input = @"This is a new tweet";
+    return input;
+}
+
+
 - (void)postTweet {
     // Some action
-    NSLog(@"Post tweet to Twitter");
+    NSLog(@"%@", tweetText);
 }
+
+
 
 @end
