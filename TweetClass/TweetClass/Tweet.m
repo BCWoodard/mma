@@ -12,9 +12,9 @@
 @synthesize username, tweetDate, tweetText; // Not required in Xcode 4.4 or greater
 
 
-- (NSString *)createTweet:(NSString *)input {
-    input = @"This is a new tweet";
-    return input;
+- (NSString *)createTweet {
+    tweetText = @"This is a new Tweet";
+    return tweetText;
 }
 
 

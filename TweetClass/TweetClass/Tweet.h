@@ -18,6 +18,6 @@
 
 // Behaviors
 - (void)postTweet;
-- (NSString *)createTweet:(NSString *)input;
+- (NSString *)createTweet;
 
 @end
