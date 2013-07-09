@@ -10,9 +10,9 @@
 
 @implementation MyClass
 
-- (void)describeMe
+- (void)describeMe:(NSString *)myString myTaxID:(int)taxID
 {
-    NSLog(@"Hola Mundo!");
+    NSLog(@"Hola Mundo! %@. My Tax ID is: %i", myString, taxID);
 }
 
 @end

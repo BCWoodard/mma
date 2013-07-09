@@ -60,7 +60,8 @@
 
 - (IBAction)removeElement:(id)sender {
     // Put your code to remove the element here;
-    if (!numberOfElements == 0) {
+    
+     if (!numberOfElements == 0) {
         numberOfElements--;
     }
     

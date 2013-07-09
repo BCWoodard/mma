@@ -16,8 +16,12 @@
 
 - (void)viewDidLoad
 {
+    MyClass *myClass = [[MyClass alloc] init];
+
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [myClass describeMe:@"Como estas?" myTaxID:55];
 
 }
 

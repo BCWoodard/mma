@@ -10,6 +10,6 @@
 
 @interface MyClass : NSObject
 
-- (void)describeMe;
+- (void)describeMe:(NSString *)myString myTaxID:(int)taxID;
 
 @end
