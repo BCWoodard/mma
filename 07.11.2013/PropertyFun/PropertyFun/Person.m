@@ -10,4 +10,11 @@
 
 @implementation Person
 
+@synthesize name;
+
+- (void)setName:(NSString *)_name
+{
+    name = [NSString stringWithFormat:@"%@!!", _name];
+}
+
 @end
