@@ -65,10 +65,10 @@
 
 - (IBAction)resizeButton:(id)sender {
    if (originalLocation){
-        resizeMe.frame = CGRectMake(0.0, 91.0, 320.0, 64.0);
+       [resizeMe setFrame:CGRectMake(0.0, 91.0, 320.0, 64.0)];
         originalLocation = NO;
     } else {
-        resizeMe.frame = CGRectMake(20.0, 71.0, 281.0, 44.0);
+        [resizeMe setFrame:CGRectMake(20.0, 71.0, 281.0, 44.0)];
         originalLocation = YES;
     }
 }

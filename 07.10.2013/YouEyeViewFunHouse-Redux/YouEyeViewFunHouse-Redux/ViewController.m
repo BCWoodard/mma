@@ -27,11 +27,12 @@
 {
     // alloc & init
     changeBGColor = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    UIView *horizontalRule1 = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 84.0f, 320.0f, 2.0f)];
     resizeButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     toggleTitle = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     
     // Alloc & init horizontal rules
-    UIView *horizontalRule1 = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 84.0f, 320.0f, 2.0f)];
+    //UIView *horizontalRule1 = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 84.0f, 320.0f, 2.0f)];
     UIView *horizontalRule2 = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 164.0f, 320.0f, 2.0f)];
     UIView *horizontalRule3 = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 234.0f, 320.0f, 2.0f)];
     UIView *horizontalRule4 = [[UIView alloc] initWithFrame:CGRectMake(0.0f, 304.0f, 320.0f, 2.0f)];

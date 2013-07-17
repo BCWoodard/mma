@@ -13,9 +13,9 @@
 - (NSString *)returnRandomString
 {
     NSArray *randomStrings = @[@"Not Likely.", @"All signs point to maybe.", @"Definitely yes!"];
-    NSString *generatedThrow = [randomStrings objectAtIndex:arc4random() % 3];
+    NSString *zippityDooDah = [randomStrings objectAtIndex:arc4random() % 3];
     
-    return generatedThrow;
+    return zippityDooDah;
 }
 
 @end

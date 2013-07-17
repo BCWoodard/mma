@@ -12,7 +12,7 @@
 @interface ViewController ()
 {
     __weak IBOutlet UILabel *answerLabel;
-    MagicEightBall          *magicBall;
+    MagicEightBall          *zippityDooDah;
     //NSString*       randomString;
 }
 - (IBAction)shake:(id)sender;
@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad
 {
-    magicBall = [[MagicEightBall alloc] init];
+    zippityDooDah = [[MagicEightBall alloc] init];
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
@@ -36,7 +36,7 @@
 - (IBAction)shake:(id)sender
 {
 
-    answerLabel.text = [magicBall returnRandomString];
+    answerLabel.text = [zippityDooDah returnRandomString];
     
     //@"needs work!"; // add your code here.  Call a method on your class that returns one of several random strings.
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AD5A87D1795DD0C005A9C43 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AD5A87B1795DD0C005A9C43 /* icon.png */; };
+		4AD5A87E1795DD0C005A9C43 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AD5A87C1795DD0C005A9C43 /* icon@2x.png */; };
 		4AE7B73E179364CE00083DBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE7B73D179364CE00083DBE /* UIKit.framework */; };
 		4AE7B740179364CE00083DBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE7B73F179364CE00083DBE /* Foundation.framework */; };
 		4AE7B742179364CE00083DBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE7B741179364CE00083DBE /* CoreGraphics.framework */; };
@@ -18,9 +20,14 @@
 		4AE7B754179364CE00083DBE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AE7B753179364CE00083DBE /* Default-568h@2x.png */; };
 		4AE7B757179364CE00083DBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE7B756179364CE00083DBE /* ViewController.m */; };
 		4AE7B75A179364CE00083DBE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AE7B758179364CE00083DBE /* ViewController.xib */; };
+		4AE7B76117936AED00083DBE /* data-latin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AE7B76017936AED00083DBE /* data-latin.ttf */; };
+		4AE7B76617936EAF00083DBE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE7B76417936EAF00083DBE /* SecondViewController.m */; };
+		4AE7B76717936EAF00083DBE /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AE7B76517936EAF00083DBE /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4AD5A87B1795DD0C005A9C43 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4AD5A87C1795DD0C005A9C43 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		4AE7B73A179364CE00083DBE /* WeekendHack-Stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeekendHack-Stopwatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE7B73D179364CE00083DBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4AE7B73F179364CE00083DBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +44,10 @@
 		4AE7B755179364CE00083DBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4AE7B756179364CE00083DBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4AE7B759179364CE00083DBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4AE7B76017936AED00083DBE /* data-latin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "data-latin.ttf"; sourceTree = "<group>"; };
+		4AE7B76317936EAF00083DBE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4AE7B76417936EAF00083DBE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4AE7B76517936EAF00083DBE /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AD5A87A1795DD00005A9C43 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4AD5A87B1795DD0C005A9C43 /* icon.png */,
+				4AD5A87C1795DD0C005A9C43 /* icon@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		4AE7B731179364CE00083DBE = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +108,9 @@
 				4AE7B755179364CE00083DBE /* ViewController.h */,
 				4AE7B756179364CE00083DBE /* ViewController.m */,
 				4AE7B758179364CE00083DBE /* ViewController.xib */,
+				4AE7B76317936EAF00083DBE /* SecondViewController.h */,
+				4AE7B76417936EAF00083DBE /* SecondViewController.m */,
+				4AE7B76517936EAF00083DBE /* SecondViewController.xib */,
 				4AE7B744179364CE00083DBE /* Supporting Files */,
 			);
 			path = "WeekendHack-Stopwatch";
@@ -96,6 +119,8 @@
 		4AE7B744179364CE00083DBE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4AD5A87A1795DD00005A9C43 /* Images */,
+				4AE7B76217936B1800083DBE /* Fonts */,
 				4AE7B745179364CE00083DBE /* WeekendHack-Stopwatch-Info.plist */,
 				4AE7B746179364CE00083DBE /* InfoPlist.strings */,
 				4AE7B749179364CE00083DBE /* main.m */,
@@ -105,6 +130,14 @@
 				4AE7B753179364CE00083DBE /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AE7B76217936B1800083DBE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4AE7B76017936AED00083DBE /* data-latin.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +196,10 @@
 				4AE7B752179364CE00083DBE /* Default@2x.png in Resources */,
 				4AE7B754179364CE00083DBE /* Default-568h@2x.png in Resources */,
 				4AE7B75A179364CE00083DBE /* ViewController.xib in Resources */,
+				4AE7B76117936AED00083DBE /* data-latin.ttf in Resources */,
+				4AE7B76717936EAF00083DBE /* SecondViewController.xib in Resources */,
+				4AD5A87D1795DD0C005A9C43 /* icon.png in Resources */,
+				4AD5A87E1795DD0C005A9C43 /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +213,7 @@
 				4AE7B74A179364CE00083DBE /* main.m in Sources */,
 				4AE7B74E179364CE00083DBE /* AppDelegate.m in Sources */,
 				4AE7B757179364CE00083DBE /* ViewController.m in Sources */,
+				4AE7B76617936EAF00083DBE /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +336,7 @@
 				4AE7B75F179364CE00083DBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
