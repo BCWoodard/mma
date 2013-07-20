@@ -11,7 +11,7 @@
 @interface SecondViewController ()
 {
     
-    __weak IBOutlet UITextField     *updateTextField;
+//    __weak IBOutlet UITextField     *updateTextField;
     __weak IBOutlet UIButton        *updateButton;
     
     AppDelegate                     *appDelegate;
@@ -24,7 +24,7 @@
 @end
 
 @implementation SecondViewController
-//@synthesize updateTextField;
+@synthesize updateTextField;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -46,9 +46,8 @@
 
     
     [updateButton setTitle:@"Update" forState:UIControlStateNormal];
-    [updateTextField setText:[appDelegate.mutableArray objectAtIndex:appDelegate.indexToUpdate]];
-    //NSLog(@"Incoming String: %@", incomingString);
-
+    //[updateTextField setText:[appDelegate.mutableArray objectAtIndex:appDelegate.indexToUpdate]];
+    
 }
 
 - (void)didReceiveMemoryWarning

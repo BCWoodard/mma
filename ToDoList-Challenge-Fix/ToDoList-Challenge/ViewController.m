@@ -16,7 +16,7 @@
     __weak IBOutlet UIButton *addToDoButton;
     __weak IBOutlet UITableView *myTableView;
     
-    //NSMutableArray          *toDoItems;
+//    NSMutableArray          *toDoItems;
     AppDelegate             *appDelegate;
     SecondViewController    *secondViewController;
     int                     updatedRow;
@@ -28,6 +28,7 @@
 @end
 
 @implementation ViewController
+@synthesize toDoItems;
 
 - (void)viewDidLoad
 {
@@ -107,9 +108,9 @@
     
     //appDelegate.stringQueue = [toDoItems objectAtIndex:indexPath.row];
     appDelegate.indexToUpdate = [appDelegate.mutableArray indexOfObject:[appDelegate.mutableArray objectAtIndex:indexPath.row]];
-    NSLog(@"IndexToUpdate: %i\nIndexPath.row: %i", appDelegate.indexToUpdate, indexPath.row);
     
     secondViewController = [[SecondViewController alloc] initWithNibName:nil bundle:nil]; // 1
+    secondViewController.updateTextField.text = toDoTextField.text;
     [self.view addSubview:secondViewController.view]; // 2
 
 }

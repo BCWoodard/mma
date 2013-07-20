@@ -11,7 +11,10 @@
 #import "ViewController.h"
 
 @interface SecondViewController : UIViewController
+{
+    UITextField *updateTextField;
+}
 
-//@property (strong, nonatomic) NSString *updateTextField;
+@property (retain, nonatomic) IBOutlet UITextField *updateTextField;
 
 @end
