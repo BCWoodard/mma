@@ -33,11 +33,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"Subviews Count: %i", [self.view.subviews count]);
     
+    int i = 0;
     for (UIView *subview in self.view.subviews) {
         if ([subview isKindOfClass:[MyView class]]) {
             MyView *myView = (MyView *)subview;
             myView.delegate = self;
+            i++;
+            NSLog(@"UIView Count: %i", i);
         }
     }
     
@@ -172,15 +176,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex
     [startTimerButton setTitle:@"Start" forState:UIControlStateNormal];
     
     [self activateButtons];
-    /*
-    for (UIView *subview in self.view.subviews) {
-        if ([subview isKindOfClass:[MyView class]]) {
-            subview.backgroundColor = [UIColor blueColor];
-            subview.alpha = 1.0f;
-            [subview setUserInteractionEnabled:YES];
-        }
-    }
-    */
+
 }
 
 
@@ -197,15 +193,6 @@ clickedButtonAtIndex:(NSInteger)buttonIndex
         
         // Activate buttons
         [self activateButtons];
-        /*
-        for (UIView *subview in self.view.subviews) {
-            if ([subview isKindOfClass:[MyView class]]) {
-                subview.backgroundColor = [UIColor blueColor];
-                subview.alpha = 1.0f;
-                [subview setUserInteractionEnabled:YES];
-            }
-        }
-        */
 
     } else {
         isTimerRunning = NO;
