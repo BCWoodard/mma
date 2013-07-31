@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A4E16CE17A8072500C4CA6E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4E16CD17A8072500C4CA6E /* UIKit.framework */; };
+		4A4E16D017A8072500C4CA6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4E16CF17A8072500C4CA6E /* Foundation.framework */; };
+		4A4E16D217A8072500C4CA6E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4E16D117A8072500C4CA6E /* CoreGraphics.framework */; };
+		4A4E16D817A8072500C4CA6E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E16D617A8072500C4CA6E /* InfoPlist.strings */; };
+		4A4E16DA17A8072500C4CA6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E16D917A8072500C4CA6E /* main.m */; };
+		4A4E16DE17A8072500C4CA6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E16DD17A8072500C4CA6E /* AppDelegate.m */; };
+		4A4E16E017A8072500C4CA6E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E16DF17A8072500C4CA6E /* Default.png */; };
+		4A4E16E217A8072500C4CA6E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E16E117A8072500C4CA6E /* Default@2x.png */; };
+		4A4E16E417A8072500C4CA6E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E16E317A8072500C4CA6E /* Default-568h@2x.png */; };
+		4A4E16E717A8072500C4CA6E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E16E517A8072500C4CA6E /* MainStoryboard.storyboard */; };
+		4A4E16EA17A8072500C4CA6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E16E917A8072500C4CA6E /* ViewController.m */; };
+		4A4E16F117A8073500C4CA6E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4E16F017A8073500C4CA6E /* CoreLocation.framework */; };
+		4A4E16F317A8073A00C4CA6E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4E16F217A8073A00C4CA6E /* MapKit.framework */; };
+		4A4E16F617A80F4D00C4CA6E /* AcademyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E16F517A80F4D00C4CA6E /* AcademyLocation.m */; };
+		4A4E16FC17A8210D00C4CA6E /* MobileMakersAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4E16FB17A8210D00C4CA6E /* MobileMakersAnnotationView.m */; };
+		4A4E16FF17A8217C00C4CA6E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E16FD17A8217C00C4CA6E /* icon.png */; };
+		4A4E170017A8217C00C4CA6E /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E16FE17A8217C00C4CA6E /* icon@2x.png */; };
+		4A4E173817A8469400C4CA6E /* busIcon-20x24.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4E173717A8469400C4CA6E /* busIcon-20x24.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A4E16CA17A8072500C4CA6E /* MapAnnotations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapAnnotations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4E16CD17A8072500C4CA6E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A4E16CF17A8072500C4CA6E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A4E16D117A8072500C4CA6E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A4E16D517A8072500C4CA6E /* MapAnnotations-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MapAnnotations-Info.plist"; sourceTree = "<group>"; };
+		4A4E16D717A8072500C4CA6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A4E16D917A8072500C4CA6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A4E16DB17A8072500C4CA6E /* MapAnnotations-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MapAnnotations-Prefix.pch"; sourceTree = "<group>"; };
+		4A4E16DC17A8072500C4CA6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A4E16DD17A8072500C4CA6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A4E16DF17A8072500C4CA6E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4A4E16E117A8072500C4CA6E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4A4E16E317A8072500C4CA6E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4A4E16E617A8072500C4CA6E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4A4E16E817A8072500C4CA6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A4E16E917A8072500C4CA6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A4E16F017A8073500C4CA6E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4A4E16F217A8073A00C4CA6E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4A4E16F417A80F4D00C4CA6E /* AcademyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcademyLocation.h; sourceTree = "<group>"; };
+		4A4E16F517A80F4D00C4CA6E /* AcademyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcademyLocation.m; sourceTree = "<group>"; };
+		4A4E16FA17A8210D00C4CA6E /* MobileMakersAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobileMakersAnnotationView.h; path = ../MobileMakersAnnotationView.h; sourceTree = "<group>"; };
+		4A4E16FB17A8210D00C4CA6E /* MobileMakersAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MobileMakersAnnotationView.m; path = ../MobileMakersAnnotationView.m; sourceTree = "<group>"; };
+		4A4E16FD17A8217C00C4CA6E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4A4E16FE17A8217C00C4CA6E /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		4A4E173717A8469400C4CA6E /* busIcon-20x24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "busIcon-20x24.png"; path = "../../../images/busIcon-20x24.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A4E16C717A8072500C4CA6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4E16F317A8073A00C4CA6E /* MapKit.framework in Frameworks */,
+				4A4E16F117A8073500C4CA6E /* CoreLocation.framework in Frameworks */,
+				4A4E16CE17A8072500C4CA6E /* UIKit.framework in Frameworks */,
+				4A4E16D017A8072500C4CA6E /* Foundation.framework in Frameworks */,
+				4A4E16D217A8072500C4CA6E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A4E16C117A8072500C4CA6E = {
+			isa = PBXGroup;
+			children = (
+				4A4E16D317A8072500C4CA6E /* MapAnnotations */,
+				4A4E16CC17A8072500C4CA6E /* Frameworks */,
+				4A4E16CB17A8072500C4CA6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A4E16CB17A8072500C4CA6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E16CA17A8072500C4CA6E /* MapAnnotations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A4E16CC17A8072500C4CA6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E16F217A8073A00C4CA6E /* MapKit.framework */,
+				4A4E16F017A8073500C4CA6E /* CoreLocation.framework */,
+				4A4E16CD17A8072500C4CA6E /* UIKit.framework */,
+				4A4E16CF17A8072500C4CA6E /* Foundation.framework */,
+				4A4E16D117A8072500C4CA6E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A4E16D317A8072500C4CA6E /* MapAnnotations */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E16DC17A8072500C4CA6E /* AppDelegate.h */,
+				4A4E16DD17A8072500C4CA6E /* AppDelegate.m */,
+				4A4E16F417A80F4D00C4CA6E /* AcademyLocation.h */,
+				4A4E16F517A80F4D00C4CA6E /* AcademyLocation.m */,
+				4A4E16FA17A8210D00C4CA6E /* MobileMakersAnnotationView.h */,
+				4A4E16FB17A8210D00C4CA6E /* MobileMakersAnnotationView.m */,
+				4A4E16E517A8072500C4CA6E /* MainStoryboard.storyboard */,
+				4A4E16E817A8072500C4CA6E /* ViewController.h */,
+				4A4E16E917A8072500C4CA6E /* ViewController.m */,
+				4A4E16D417A8072500C4CA6E /* Supporting Files */,
+			);
+			path = MapAnnotations;
+			sourceTree = "<group>";
+		};
+		4A4E16D417A8072500C4CA6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A4E173717A8469400C4CA6E /* busIcon-20x24.png */,
+				4A4E16FD17A8217C00C4CA6E /* icon.png */,
+				4A4E16FE17A8217C00C4CA6E /* icon@2x.png */,
+				4A4E16D517A8072500C4CA6E /* MapAnnotations-Info.plist */,
+				4A4E16D617A8072500C4CA6E /* InfoPlist.strings */,
+				4A4E16D917A8072500C4CA6E /* main.m */,
+				4A4E16DB17A8072500C4CA6E /* MapAnnotations-Prefix.pch */,
+				4A4E16DF17A8072500C4CA6E /* Default.png */,
+				4A4E16E117A8072500C4CA6E /* Default@2x.png */,
+				4A4E16E317A8072500C4CA6E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A4E16C917A8072500C4CA6E /* MapAnnotations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A4E16ED17A8072500C4CA6E /* Build configuration list for PBXNativeTarget "MapAnnotations" */;
+			buildPhases = (
+				4A4E16C617A8072500C4CA6E /* Sources */,
+				4A4E16C717A8072500C4CA6E /* Frameworks */,
+				4A4E16C817A8072500C4CA6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapAnnotations;
+			productName = MapAnnotations;
+			productReference = 4A4E16CA17A8072500C4CA6E /* MapAnnotations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A4E16C217A8072500C4CA6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Brad Woodard";
+			};
+			buildConfigurationList = 4A4E16C517A8072500C4CA6E /* Build configuration list for PBXProject "MapAnnotations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A4E16C117A8072500C4CA6E;
+			productRefGroup = 4A4E16CB17A8072500C4CA6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A4E16C917A8072500C4CA6E /* MapAnnotations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A4E16C817A8072500C4CA6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4E16D817A8072500C4CA6E /* InfoPlist.strings in Resources */,
+				4A4E16E017A8072500C4CA6E /* Default.png in Resources */,
+				4A4E16E217A8072500C4CA6E /* Default@2x.png in Resources */,
+				4A4E16E417A8072500C4CA6E /* Default-568h@2x.png in Resources */,
+				4A4E16E717A8072500C4CA6E /* MainStoryboard.storyboard in Resources */,
+				4A4E16FF17A8217C00C4CA6E /* icon.png in Resources */,
+				4A4E170017A8217C00C4CA6E /* icon@2x.png in Resources */,
+				4A4E173817A8469400C4CA6E /* busIcon-20x24.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A4E16C617A8072500C4CA6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4E16DA17A8072500C4CA6E /* main.m in Sources */,
+				4A4E16DE17A8072500C4CA6E /* AppDelegate.m in Sources */,
+				4A4E16EA17A8072500C4CA6E /* ViewController.m in Sources */,
+				4A4E16F617A80F4D00C4CA6E /* AcademyLocation.m in Sources */,
+				4A4E16FC17A8210D00C4CA6E /* MobileMakersAnnotationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A4E16D617A8072500C4CA6E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A4E16D717A8072500C4CA6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A4E16E517A8072500C4CA6E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A4E16E617A8072500C4CA6E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A4E16EB17A8072500C4CA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A4E16EC17A8072500C4CA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A4E16EE17A8072500C4CA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapAnnotations/MapAnnotations-Prefix.pch";
+				INFOPLIST_FILE = "MapAnnotations/MapAnnotations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A4E16EF17A8072500C4CA6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MapAnnotations/MapAnnotations-Prefix.pch";
+				INFOPLIST_FILE = "MapAnnotations/MapAnnotations-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A4E16C517A8072500C4CA6E /* Build configuration list for PBXProject "MapAnnotations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4E16EB17A8072500C4CA6E /* Debug */,
+				4A4E16EC17A8072500C4CA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A4E16ED17A8072500C4CA6E /* Build configuration list for PBXNativeTarget "MapAnnotations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4E16EE17A8072500C4CA6E /* Debug */,
+				4A4E16EF17A8072500C4CA6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A4E16C217A8072500C4CA6E /* Project object */;
+}
